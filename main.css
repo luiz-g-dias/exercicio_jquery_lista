@@ -1,0 +1,91 @@
+body {
+    background: #ffb0b0;
+}
+
+.lista {
+    background: #ffd3d3;
+    border-radius: 66px;
+    width: 326px;
+    height: 390px;
+    position: absolute;
+    left: calc(50% - 167px);
+    top: calc(50% - 251px);
+}
+
+.titulo {
+    background: #bfaafb;
+    border-radius: 73px;
+    width: 201px;
+    height: 66px;
+    position: absolute;
+    left: calc(50% - 104px);
+    top: calc(50% - 280px);
+}
+
+.areaddtexto {
+    background: #bfaafb;
+    border-radius: 73px;
+    width: 326px;
+    height: 119px;
+    position: absolute;
+    left: calc(50% - 167px);
+    top: calc(50% - -148px);
+}
+
+.caixadetexto {
+    background: #e3daff;
+    border-radius: 73px;
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    left: calc(50% - 162px);
+    top: calc(50% - -152px);
+    border: none;
+    resize: none;
+    padding: 10px 30px 10px;
+    outline: none;
+}
+
+#submit {
+    background: #86eb90;
+    border-radius: 50%;
+    width: 99px;
+    height: 100px;
+    position: absolute;
+    left: calc(50% - -50px);
+    top: calc(50% - -156px);
+    border: none;
+    cursor: pointer;
+}
+
+#cancel {
+    background: #eb8686;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: calc(50% - -39px);
+    top: calc(50% - -229px);
+    border: none;
+    cursor: pointer;
+}
+
+.tabela {
+    background: #ffd3d3;
+    border-radius: 66px;
+    flex-shrink: 0;
+    width: 320px;
+    height: 350px;
+    top: 25px;
+    position: relative;
+    overflow: auto;
+}
+
+.titulo h1 {
+    margin: 15px;
+    text-align: center;
+}
+
+p {
+    cursor: pointer;
+}
